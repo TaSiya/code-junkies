@@ -16,5 +16,5 @@ const route = Routes(service);
 const PORT = process.env.PORT || 2018;
 app.listen(PORT, () =>{
     console.log('Listening to port...'+ PORT);
-    console.log(api);
+    // console.log(api);
 })
