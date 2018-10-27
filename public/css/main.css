@@ -50,8 +50,8 @@
 
     .map{
         margin:auto;
-        width:90vw;
-        height:45vh;
+        width:100vw;
+        height:30vh;
         z-index: 1;
     }
 
@@ -60,6 +60,15 @@
         font-size: 24px;
         color: #FF473A;
 
+    }
+
+    .top{
+        text-align:center;
+    }
+
+    .row{
+word-wrap: normal;
+width:100vw;
     }
 
 }
