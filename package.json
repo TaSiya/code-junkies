@@ -1,0 +1,31 @@
+{
+  "name": "hackerthon",
+  "version": "1.0.0",
+  "description": "Hackerthon app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TaSiya/code-junkies.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TaSiya/code-junkies/issues"
+  },
+  "homepage": "https://github.com/TaSiya/code-junkies#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-flash": "0.0.2",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.15.6",
+    "mysql": "^2.16.0",
+    "pg": "^7.6.0",
+    "request": "^2.88.0",
+    "tedious": "^3.0.1"
+  }
+}
