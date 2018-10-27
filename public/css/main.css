@@ -1,6 +1,16 @@
 @media only screen and (max-width: 992px) {
     body {
         background-color: lightblue;
+        font-family:'Montserrat'; 
+        color:black;
+    }
+
+    button{
+        font-size:12;
+        color: white;
+        background-color:#FF473A;
+        border:none;
+        border-radius: 4px;
     }
 
     header{
@@ -16,6 +26,8 @@
      left:7vw;
      top:-5.5vh;
      z-index: 1;
+     background-color: white;
+     color:black;
     }
 
     .block{
@@ -46,6 +58,7 @@
 
     .login button {
         width:50vw;
+        box-shadow:5px 5px 10px 0 grey;
     }
 
     .map{
@@ -56,7 +69,7 @@
     }
 
     header h1{
-        font-family:'Montserrat'; 
+        font-family:'Montserrat Regular'; 
         font-size: 24px;
         color: #FF473A;
 
