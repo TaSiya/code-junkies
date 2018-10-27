@@ -11,6 +11,7 @@ module.exports = function () {
         saveUninitialized: true
     }));
 
+
     app.engine('handlebars', handlebar({
         defaultLayout : 'main'
     }));
@@ -23,7 +24,9 @@ module.exports = function () {
     // parse application/json
     app.use(bodyParser.json())
 
-    app.use(express.static(__dirname + './public/'));
+
+    // app.use(express.static(__dirname + "/static"));
+    app.use(express.static(__dirname + "../../public"));
 
     return app;
 }
