@@ -31,21 +31,22 @@ connection.on('connect', function(err)
  );
 
 function queryDatabase(Query)
-   { console.log('Reading rows from the Table...');
+   { 
+    //    console.log('Reading rows from the Table...');
 
        // Read all rows from table
      request = new Request(
           Query, //this is where the query goes
              function(err, rowCount, rows) 
                 {
-                    console.log(rowCount + ' row(s) returned');
-                    process.exit();
+                    // console.log(rowCount + ' row(s) returned');
+                    // process.exit();
                 }
             );
 
      request.on('row', function(columns) {
         columns.forEach(function(column) {
-            console.log("%s\t%s", column.metadata.colName, column.value);
+            // console.log("%s\t%s", column.metadata.colName, column.value);
          });
              });
      connection.execSql(request);
