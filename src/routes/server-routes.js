@@ -1,9 +1,7 @@
 module.exports = function (service) {
     async function getCountries(req, res) {
         try{
-            // if (navigator.geolocation) {
-            //     navigator.geolocation.getCurrentPosition(showPosition);
-            // }
+            
             res.render('home')
         } catch(err) {
             res.send(err.stack)
