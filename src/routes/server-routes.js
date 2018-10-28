@@ -16,9 +16,27 @@ module.exports = function (service) {
         } catch(err){  
             res.send(err.stack);
         }
+    }
+    async function summary(req, res) {
+        try{
+
+            res.render('summary')
+        } catch(err) {
+            res.send(err.stack);
+        }
     } 
+    async function getProgress(req, res) {
+        try{
+
+            res.render('progress')
+        } catch(err) {
+            res.send(err.stack);
+        }
+    }
     return {
         getCountries,
-        payment
+        payment,
+        summary,
+        getProgress
     }
 }
