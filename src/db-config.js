@@ -36,7 +36,7 @@ function queryDatabase(Query)
 
        // Read all rows from table
      request = new Request(
-          "Select * from transactions", //this is where the query goes
+          Query, //this is where the query goes
              function(err, rowCount, rows) 
                 {
                     // console.log(rowCount + ' row(s) returned');
