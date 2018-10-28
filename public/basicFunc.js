@@ -1,5 +1,5 @@
    module.exports = function () {
-       function makeid() {
+       function makeId() {
            const text = document.getElementById("couponCode").innerHTML;
         //    var text = name;
            var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
@@ -8,6 +8,6 @@
            return text
        }
        return{
-           makeid
+           makeId
        }
    }
