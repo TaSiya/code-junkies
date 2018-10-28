@@ -75,6 +75,9 @@
         text-align:center;
     }
 
+.fa-map-marker-alt, .fa-clock{
+    float: left;
+}
 
 }
 
