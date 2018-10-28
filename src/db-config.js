@@ -50,6 +50,9 @@ function queryDatabase(Query)
          });
              });
      connection.execSql(request);
+     return connection;
    }
-    return connection;
+    return {
+        queryDatabase
+    }
 }
