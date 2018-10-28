@@ -1,7 +1,9 @@
 module.exports = function (service) {
     async function getCountries(req, res) {
         try{
-
+            let lat = req.body.lat;
+            console.log(lat+" please");
+            
             res.render('home')
         } catch(err) {
             res.send(err.stack)

@@ -13,7 +13,9 @@ module.exports = (request, TOKEN) => {
             });
           });
     }
-
+    function getCurrentLocation() {
+      
+    }
     return{
         getAgencies
     }
