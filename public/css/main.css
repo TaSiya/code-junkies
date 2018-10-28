@@ -51,7 +51,7 @@
     .map{
         margin:auto;
         width:100vw;
-        height:30vh;
+        height:50vh;
         z-index: 1;
     }
 
@@ -66,9 +66,9 @@
         text-align:center;
     }
 
-    .row{
-word-wrap: normal;
-width:100vw;
-    }
 
+}
+
+.summary{
+    width: 60%;
 }

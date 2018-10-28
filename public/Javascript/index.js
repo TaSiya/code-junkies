@@ -13,8 +13,8 @@ document.addEventListener("DOMContentLoaded", function () {
     
     function showPosition(position) {
         console.log(position);
-        latt.innerHTML = position.coords.latitude;
-        longg.innerHTML = position.coords.longitude;
+        // latt.innerHTML = position.coords.latitude;
+        // longg.innerHTML = position.coords.longitude;
         let lat = position.coords.latitude;
         let long = position.coords.longitude;
         
